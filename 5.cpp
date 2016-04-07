@@ -45,32 +45,3 @@ void sea(int s,int n)
         if(m) return;
     }
 }
-/*#include<iostream>
-#include<cstdio>
-using namespace std;
-int main()
-{
-    int i,t,k=0,sum=0;
-    bool a[100]={0},m=0;
-    scanf("%d",&t);
-    if(t<=3) cout<<t<<" error"<<endl;
-    else
-    {
-        for(;;)
-        {
-            for(i=0;i<t;++i)
-            {
-                if(*(a+i)!=1){
-                    k++;
-                    if(k==3) {*(a+i)=1;k=0;++sum;}
-                    if(sum==t-1) {m=1;break;}
-                }
-            }
-            if(m) break;
-        }
-        for(i=0;i<t;++i)
-            if(!*(a+i)) {printf("%d\n",i+1);break;}
-    }
-    return 0;
-}
-*/
