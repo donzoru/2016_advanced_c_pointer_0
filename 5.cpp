@@ -1,5 +1,5 @@
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 int a[25],b[25],c[4]={0,4,20,24};
 bool d[25]={0};
